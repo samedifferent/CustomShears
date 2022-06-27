@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "customshears",
+  "version": "${version}",
+  "name": "Custom Shears",
+  "description": "Makes items in Fabric's shears tag work properly as shears",
+  "authors": [
+    "SameButDifferent"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "samebutdifferent.customshears.CustomShears"
+    ]
+  },
+  "mixins": [
+    "customshears.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18"
+  }
+}
